@@ -28,7 +28,6 @@ describe Integer, '#to_roman' do
     expect(9.to_roman).to eq('IX')
   end
 
-
   it 'converts 27 XXVII' do
     expect(27.to_roman).to eq('XXVII')
   end
